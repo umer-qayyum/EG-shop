@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+.navRight .icon img{
+    width:30px;
+    height: 30px;
+    margin: 8px 5px 0 0;
+}
+.navRight .call p{
+    height: 30px;
+    color: grey;
+}
+.heroSection{
+
+    height: 500px;
+
+    /* border: 1px solid red; */
+    position: relative;
+    
+}
+.heroSection::before{
+    content:'';
+    background-image: url(css/bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: .7;
+}
+.heroSection .row{
+    position: relative;
+    padding: 0px 30px;
+}
+.heroSection .row .col p{
+    font-weight: bold;
+}
+.heroSection .row .col button{
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.searchBar{
+    width: 100%;
+    
+}
+.searchBar input{
+    width: 70%;
+    padding: 15px 20px;
+    border: 1px solid grey;
+    margin-right: 5px;
+    border-radius: 40px;
+    
+}
+.searchBar button{
+    padding:15px 40px ;
+    border-radius: 40px;
+}
+.carousel-control-prev-icon{
+    color:black;
+
+}
+.text{
+    margin: 180px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.fb{
+    color: white;background-color: blue;padding:10px;border-radius: 100%;margin: 0px 10px;
+}
+.insta{
+    color: white;background-color:#E95950;padding:10px;border-radius: 100%;margin: 0px 10px;
+}
+.tweeter{
+    color: white;background-color: #55ACEE;padding:10px;border-radius: 100%;margin: 0px 10px;
+}
+.utube{
+    color: white;background-color: red;padding:10px;border-radius: 100%;margin: 0px 10px;
+}
+.lin{
+    color: white;background-color: #007BB5;padding:10px;border-radius: 100%;margin: 0px 10px;
+}
